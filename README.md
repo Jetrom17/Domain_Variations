@@ -1,5 +1,6 @@
 # Geração de Variações de Domínios com Caracteres Especiais e Conversão para Punycode
 
+![](https://i.imgur.com/HAWUDCx.png)
 
 Este código em Python é uma ferramenta útil para gerar variações de um domínio com caracteres especiais, como acentos. Ele utiliza uma função recursiva chamada substituir_caracteres() para substituir cada caractere do domínio base pelas suas respectivas variações acentuadas. A função gerar_variacoes() utiliza essa função recursiva e retorna um conjunto de variações do domínio. Por fim, o módulo idna é usado para converter essas variações para Punycode, uma representação ASCII de nomes de domínio que podem conter caracteres Unicode.
 
